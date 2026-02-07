@@ -37,7 +37,7 @@ transform = transforms.Compose([
 # ------------------
 # データ読み込み
 # ------------------
-df = pd.read_csv("sense_app/items.csv")
+df = pd.read_csv("items.csv")
 
 sense_labels = ["brightness", "contrast", "body", "sharpness", "aftertaste"]
 
