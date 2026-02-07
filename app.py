@@ -20,7 +20,7 @@ st.caption("Painting your taste from a photo")
 # ------------------
 # モデル読み込み
 # ------------------
-reg = joblib.load("sense_app/sense_regressor.joblib")
+reg = joblib.load("sense_regressor.joblib")
 
 resnet = models.resnet18(pretrained=True)
 resnet.eval()
